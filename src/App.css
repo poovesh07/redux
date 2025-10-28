@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+background: linear-gradient(135deg, #e3f2fd, #cfe8fc, #e3f2fd);
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  color: #333;
+  transition: background 0.5s ease;
+}
+
+/* Main App Container */
+.App {
+  background: #ffffff;
+  margin-top: 60px;
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  width: 400px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.App:hover {
+  transform: translateY(-5px);
+}
+
+/* Heading */
+.App h1 {
+  color: #1565c0;
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+}
+
+/*  Add Section */
+.App h3 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px 14px;
+  border: 2px solid #d0d7e2;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  background-color: #f9fbff;
+}
+
+input[type="text"]:focus {
+  border-color: #1976d2;
+  box-shadow: 0 0 8px rgba(25, 118, 210, 0.3);
+}
+
+/*  Add Button */
+button {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  background: #0d47a1;
+  transform: scale(1.05);
+}
+
+/*  Customer List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+  text-align: left;
+}
+
+ul li {
+  background: #f5f9ff;
+  border: 1px solid #e1e7f0;
+  border-radius: 12px;
+  padding: 12px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+  transition: all 0.25s ease;
+}
+
+ul li:hover {
+  background: #e3f2fd;
+  transform: translateY(-2px);
+}
+
+
+ul li button {
+  background: #e53935;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+ul li button:hover {
+  background: #b71c1c;
+}
+
+@media (max-width: 480px) {
+  .App {
+    width: 90%;
+    padding: 25px;
+  }
+
+  input[type="text"] {
+    width: 65%;
+  }
+}
