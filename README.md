@@ -1,19 +1,19 @@
-# 🧾 React Redux Customer Management App
+#  React Redux Customer Management App
 
-## 📘 Description  
+##  Description  
 A simple React.js app using Redux to add and view customer details with centralized state management.
 
 ---
 
-## 🚀 Features  
-- 🧍 Add new customer details  
-- 👀 View list of customers  
-- 🔄 Manage global state using Redux Toolkit  
-- ⚡ Fast and easy to maintain  
+##  Features  
+-  Add new customer details  
+-  View list of customers  
+-  Manage global state using Redux Toolkit  
+-  Fast and easy to maintain  
 
 ---
 
-## 🧰 Tech Stack  
+##  Tech Stack  
 - **React.js**  
 - **Redux Toolkit**  
 - **JavaScript (ES6)**  
