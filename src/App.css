@@ -133,3 +133,71 @@ ul li button:hover {
     width: 65%;
   }
 }
+/* Small Mobile (up to 480px) */
+@media (max-width: 480px) {
+  .App {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .App h1 {
+    font-size: 1.5rem;
+  }
+
+  input[type="text"] {
+    width: 65%;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  ul li {
+    font-size: 14px;
+  }
+}
+
+/* Tablets (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .App {
+    width: 80%;
+    padding: 35px;
+  }
+
+  .App h1 {
+    font-size: 1.7rem;
+  }
+
+  input[type="text"] {
+    width: 70%;
+  }
+
+  button {
+    padding: 9px 14px;
+  }
+}
+
+/* Small Laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .App {
+    width: 500px;
+    padding: 40px 50px;
+  }
+
+  .App h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Large Screens (1025px and above) */
+@media (min-width: 1025px) {
+  .App {
+    width: 450px;
+  }
+
+  .App h1 {
+    font-size: 2rem;
+  }
+}
